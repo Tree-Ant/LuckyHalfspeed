@@ -1,0 +1,60 @@
+body {
+    background-color: white;
+}
+
+.floatR {
+    float: right;
+}
+
+.logo {       
+   text-align: center;
+   margin: -3% 0;
+}
+
+#logo {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.logo2 {       
+    text-align: center;
+    width: 100%; 
+}
+
+.company {
+    text-align: center;
+} 
+
+.heading {
+    background-color: white;    
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-bottom: solid white 5px;
+    border-top: solid white 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.imgLinkSpot {
+    width: 100%;
+}
+
+.col-xl-4 {
+    height: max-content;
+}
+
+.singleComment {
+    border: black solid 1px;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+
+

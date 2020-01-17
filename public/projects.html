@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lucky Halfspeed</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+
+</head>
+
+<body>
+    <div class="header">
+
+    </div>
+    <div class="heading">
+        <div class="row">
+
+        </div>
+        <div class="col-12">
+            <div class="logo">
+                <a href="/"><img id="logo" src="./assets/images/logo.jpg" alt="logo"></a>
+            </div>
+        </div>
+       
+    </div>
+    
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h2>New Idea</h2>
+            </div>
+            <div class="card-body">
+                <form>
+                    <!-- TITLE -->
+                    <div class="form-group">
+                        <label for="titleINPUT">
+                            <h5>Title:</h5>
+                        </label>
+                        <textarea class="form-control" id="titleINPUT" rows="1"></textarea>
+                    </div>
+                    <!-- IDEA -->
+                    <div class="form-group">
+                        <label for="ideaINPUT">
+                            <h5>Idea:</h5>
+                        </label>
+                        <textarea class="form-control" id="ideaINPUT" rows="3"></textarea>
+                    </div>
+                    <div class="row">
+                        <!-- DATE -->
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="dateINPUT">Date:</label>
+                                <input class="form-control" type="date" id="dateINPUT">
+                            </div>
+                        </div>
+                        <!-- SETTING -->
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="settingINPUT">Setting:</label>
+                                <select class="form-control" id="settingINPUT">
+                                    <option>Modern</option>
+                                    <option>Western</option>
+                                    <option>Space</option>
+                                    <option>Holiday</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- LOCATION -->
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="locationINPUT">Location:</label>
+                                <textarea class="form-control" id="locationINPUT" rows="1"></textarea>
+                            </div>
+                        </div>
+                        <!-- USER -->
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="authorINPUT">Created By:</label>
+                                <select class="form-control" id="authorINPUT">
+                                    <option>Trent</option>
+                                    <option>Rob</option>
+                                    <option>Thomas</option>
+                                    <option>Bob</option>
+                                    <option>Jess</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- IMGLINK -->
+                    <div class="form-group">
+                        <label for="imgLinkINPUT">imgLink:</label>
+                        <textarea class="form-control" id="imgLinkINPUT" rows="1"></textarea>
+                    </div>
+                    <!-- FILE -->
+                    <div class="form-group">
+                        <label for="fileINPUT"></label>
+                        <input type="file" class="form-control-file" id="fileINPUT">
+                    </div>
+                    <button type="submit" class="btn btn-primary floatR" id="new-entry">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container divider"></div>
+
+    </div>
+
+    <div id="results">
+        <div class="container-fluid">
+            <div id="entries" class="row"></div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
