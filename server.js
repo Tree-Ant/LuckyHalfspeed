@@ -5,6 +5,7 @@ const path = require("path");
 
 const app = express();
 
+const PORT = process.env.PORT || 8000;
 
 app.use(logger("dev"));
 
@@ -64,6 +65,6 @@ app.get('/projects', (req, res) => {
 });
 
 // =================Listener================
-app.listen(8000, () => {
+app.listen(PORT, () => {
   console.log("App running on port 8000!");
 });
