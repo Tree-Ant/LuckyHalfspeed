@@ -1,4 +1,5 @@
 $("#new-entry").on("click", function () {
+  console.log("new submission!!!");
   $.ajax({
     type: "POST",
     url: "/projects/newProject",

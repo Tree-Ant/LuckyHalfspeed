@@ -4,7 +4,6 @@ const logger = require("morgan");
 const path = require("path");
 const mongoose = require('mongoose');
 
-
 const app = express();
 
 const PORT = process.env.PORT || 8000;
