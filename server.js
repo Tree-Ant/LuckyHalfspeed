@@ -4,7 +4,7 @@ const logger = require("morgan");
 const path = require("path");
 const mongoose = require('mongoose');
 
-const Schema = require("./schema");
+const Schema = require("./public/schema");
 
 const app = express();
 
